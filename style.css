@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    background-color: rgb(0, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    margin-left: 1rem;
+    padding: .5rem 0;
+}
+
+.add {
+    border: none;
+    background-color: rgb(238, 255, 0);
+    padding: 8px 8px;
+    font-size: 1rem;
+    position: absolute;
+    left: 90%;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.note {
+    overflow: scroll;
+    border: 1px solid black;
+    width: 20vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 32vh;
+    float: left;
+    background-color: yellow;
+}
+
+.edit,
+.delete {
+    font-size: 1.1rem;
+    margin-top: 9px;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 5%;
+    padding: 5px 11px;
+    background-color: rgb(101, 240, 245);
+    cursor: pointer;
+    border: .5px solid black;
+}
+
+.delete {
+    padding: 5px 13px;
+}
+
+textarea {
+    background-color: yellow;
+    border: none;
+    width: 19.5vw;
+    height: 24vh;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    overflow: scroll;
+}
+
+.textarea {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width:740px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .heading {
+        background-color: rgb(0, 255, 255);
+        border-bottom: 1px solid black;
+    }
+    h1 {
+        margin-left: 1rem;
+        padding: .5rem 0;
+    }
+    .add {
+        display: inline-block;
+        border: none;
+        background-color: rgb(238, 255, 0);
+        padding: 8px 8px;
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: -19rem;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    .note {
+        overflow: scroll;
+        border: 1px solid black;
+        width: 40vw;
+        margin-top: 5rem;
+        margin-left: 1rem;
+        height: 32vh;
+        background-color: yellow;
+    }
+    .edit,
+    .delete {
+        font-size: 1.1rem;
+        margin-top: 9px;
+        margin-left: 1rem;
+        border: none;
+        border-radius: 5%;
+        padding: 5px 11px;
+        background-color: rgb(101, 240, 245);
+        cursor: pointer;
+        border: .5px solid black;
+    }
+    .delete {
+        padding: 5px 13px;
+    }
+    textarea {
+        background-color: yellow;
+        border: none;
+        width: 39vw;
+        height: 24vh;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 5px 5px;
+        overflow: scroll;
+    }
+    .textarea {
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+}
